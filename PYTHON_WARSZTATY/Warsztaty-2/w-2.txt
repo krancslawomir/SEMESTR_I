@@ -1,0 +1,25 @@
+Pojęcia do omówienia:
+1. Pętla for oraz iteracja po indeksach łańcucha znaków
+2. Konstrukcja if, elif, else
+3. Tworzenie funkcji własnych
+4. Listy
+5. Rekurencja
+6. Import biblioteki numpy oraz wykorzystanie jej funkcji (mean, std)
+
+Dodatek matematyczny: średnia, odchylenie standardowe średniej, silnia, symbol Newtona, trójkąt Pascala.
+Zadanie 1. 
+Utwórz skrypt z interfejsem tekstowym, który pobierze od użytkownika zdanie i wyświetli w kolejnych wierszach litery tego zdania w odwróconej kolejności.
+Zadanie 2. 
+W klasie przeprowadzono sprawdzian, za który uczniowie mogli otrzymać maksymalnie 40 punktów. Skala ocen w szkole jest następująca: 0-39% - ndst, 40-49% - dop, 50-69% - dst, 70-84% - db, 85-99% - bdb, 100% - cel. Utwórz skrypt z interfejsem tekstowym, który na podstawie podanej liczby punktów ze sprawdzianu wyświetli ocenę jaka się należy (skorzystaj z konstrukcji if, elif, else). 
+Zadanie 3. 
+Utwórz skrypt z interfejsem tekstowym, który wyliczy sumę n kolejnych liczb (użytkownik podaje pierwszą i ostatnią liczbę sumy). Uwaga – w zadaniu należy zbudować funkcję własną realizującą dane zadanie.
+Zadanie 4. 
+Utwórz skrypt z interfejsem tekstowym, który przyjmie od użytkownika ile elementów chce on wprowadzić do listy, przyjmie te elementy, a następnie wyliczy: średnią i odchylenie standardowe średniej. Wykonać zadanie na dwa sposoby: poprzez utworzenie funkcji własnych obliczających średnią i odchylenie standardowe oraz korzystając z gotowych funkcji np. z pakietu numpy.
+Zadanie 5. 
+Utwórz skrypt z interfejsem tekstowym który obliczy silnię od danego argumentu. Wykonać zadanie na dwa sposoby – iteracyjnie i rekurencyjnie.
+Zadanie 6. 
+Utworzyć skrypt z interfejsem tekstowym obliczający n-ty element ciągu Fibonacciego – wykonać zadanie iteracyjnie i rekurencyjnie. 
+Zadanie 7. 
+Utworzyć skrypt z interfejsem tekstowym obliczający symbol Newtona n po k. Utworzyć funkcję, która będzie wywoływać inną funkcję.
+Zadanie 8. 
+Utworzyć skrypt z interfejsem tekstowym, który będzie zwracać wiersz n-tego rzędu z trójkąta Pascala (użytkownik podaje n, program zwraca odpowiadający wiersz trójkąta).

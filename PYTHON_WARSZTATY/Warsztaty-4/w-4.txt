@@ -1,0 +1,37 @@
+Korzystamy z bibliotek numpy i matplotlib
+
+Zadanie 1.
+Korzystając z instrukcji np.random.choice oraz reshape z pakietu numpy stworzyć funkcję generują macierz kwadratową stopnia N wypełnioną wartościami 0 i 255 w losowy sposób.
+
+Zadanie 2.
+Utwórz funckję, która na zadanej macierzy zapisze wzór ustalonych struktur (blok, ul, bochenek, łódka, światła uliczne, żaba, latarnia).
+
+Zadanie 3. 
+Utwórz funkcję zależną od numeru wiersza i kolumny macierzy (i, j), która będzie obliczać liczbę "żywych" komórek sąsiadujących względem komórki (i, j). 
+
+Zadanie 4. 
+Utwórz funkcję wyliczającą nowy stan macierzy komórek, zgodnie z regułami Conway'a:
+1) Jeżli komórka jest żywa to umiera gdy: 
+- posiada czterech i więcej żywych sąsiadów (przeludnienie)
+- posiada jednego lub mniej żywych sąsiadów (samotność)
+2) Jeżeli komórka jest martwa to ożywa jeśli ma dokładnie trzech żywych sąsiadów (nie mniej nie więcej)
+3) W pozostałych przypadkach stan komórki nie ulega zmianie
+- komórka pozostaje żywa gdy ma dokładnie dwóch lub trzech żywych sąsiadów
+- komórka pozostaje martwa we wszystkich sytuacjach poza sytuacją trzech żywych sąsiadów
+
+Zadanie 5. 
+Utwórz pętlę, wykonującą serię obrazów reperentujących stan układu komórek oraz ich zapis do plików png. 
+
+
+Projekt:
+
+Wykorzystując rozwiązania powyższych zadań utwórz symulację automatu komórkowego - gry w życie (game of life). Gra w życie stanowi ciekawy problem sieci komórek, który można opisać za pomocą macierzy. Scena symulacji składa się z NxN pól, które mogą przyjmować jeden z dwóch stanów - żywy lub martwy. Symulacja składa się z następujących po sobie kroków, aktualizujących stany komórek sceny. W każdym kroku sprawdzany jest stan danej komórki oraz jej sąsiadów. W nowym kroku komórka może stać się żywa lub martwa w zależności przyjętych reguł. W projekcie korzystamy z reguł Conwaya:
+- komórka umiera: jeśli komórka jest żywa to umrze jeśli jest w "przeludnionym" otoczeniu, tzn. posiada 4 lub więcej żywych sąsiadów lub jeśli jest w opustoszałym otoczeniu - jeśli komórka ma mniej niż 1 żywego sąsiada to również umiera.
+- komórka rodzi się: jeśli komórka jest martwa, stanie się żywa jeśli ma dokładnie 3 żywych sąsiadów
+- komórka nie zmienia stanu: pozostałe przypadk, czyli komórka pozostaje żywa jeżeli ma dokładnie dwóch lub trzech żywych sąsiadów, komórka pozostaje martwa jeżeli wokół niej jest dowolna sytuacja poza trzema żywymi sąsiadami.
+Utworzony program powinien posiadać:
+1. Możliwość generowania początkowej sceny
+2. Możliwość ustawiania na scenie pewnych szczególnych struktur (szybowiec, cegła, bochenek)
+3. Funkcję obliczającą liczbę żywych sąsiadów dla danej komórki
+4. Funckję obliczającą nowy stan sceny
+5. Funckję generującą animację wyników symulacji.

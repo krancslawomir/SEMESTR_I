@@ -1,0 +1,11 @@
+1. Utwórz fukcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie średnia arytmetyczna. Porównaj jej wynik z wynikiem fukcji mean z pakietu numpy.
+2. Utwórz fukcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie mediana (skorzystaj z metody sort działającej na standardowych listach).
+3. Utwórz funkcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie dominanta (moda). Skorzystaj z obiektu Counter i jego metody most_common z pakietu collections.
+4. Utwórz fukcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie odchylenie standardowe średniej.
+5. Utwórz fukcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie drugi moment centralny (wariancja).
+6. Utwórz funkcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie trzeci moment centralny (skośność).
+7. Utwórz funkcję, która jako argument będzie przyjmować listę liczb zmiennoprzecinkowych, a jej wynikiem będzie czwarty moment centralny (kurtoza).
+8. Utwórz funkcję, która jako argument będzie przyjmować dwie listy o równej liczbie elementów, a jej wynikiem będzie współczynnik korelacji.
+9. Utwórz funkcję, która jako argument będzie przyjmować dwie listy o równej liczbie elementów, a jej wynikiem będą współczynniki regresji liniowej.
+10. Wynegeruj listę 1000 liczb losowych o rozkładzie normalnym. Wykreśl histogram oraz średnią, medianę, dominantę, odchylenie standardowe, wariancję, skośność i kurtozę.
+11. Utwórz własną bibliotekę z funkcjami statystycznymi i umieść ją w katalogu lib środowiska python. Spróbój zaimportować stworzone przez siebie funkcje.

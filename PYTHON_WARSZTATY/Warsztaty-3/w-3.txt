@@ -1,0 +1,12 @@
+Korzystamy z bibliotek numpy i matplotlib
+
+Zadania:
+
+1. Utwórz skrypt, w którym zamieścisz 3 listy danych, zawierające po 14 temperatur dla 3 wybranych miast na kolejne 14 dni oraz utwórz wykres z tych danych. Twój wykres powinien mieć 3 linie z zaznaczonymi punktami danych za pomocą różnych znaczników, tytuł, opisane osie oraz legendę.
+2. Utwórz funkcję własną, która jako argument przyjmować będzie listę argumentów i wartości, a jako wynik będzie wyświetlać sformatowany wykres (stosowny zakres, opis, kolory, legenda).
+3. Utwórz funkcję, która będzie generować listy danych do wykreślenia w oparciu o:
+a) fukcję liniową ax+b
+b) funkcję kwadratową ax^2+bx+c
+c) funkcję odwrotnie-potęgową a/x^n
+Każda z fukcji powinna przyjmować parametry równania, natomiast zwracać powinna dwie listy - x i y, które następnie będzie można wykreślić na wykresie.
+4. Utwórz pętlę, która w zależności od wartości licznika (i na podstawie rozwiązania zadania 3) będzie generować różne zestawy danych oraz zapisywać je w katalogu na dysku komputera.  
